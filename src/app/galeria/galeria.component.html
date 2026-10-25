@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ tituloSeccion }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>{{ descripcion }}</p>
+
+  <div class="image-container">
+    <img
+      [src]="rutaImagenLocal"
+      alt="Imagen cargada desde los recursos locales"
+    />
+  </div>
+</ion-content>
